@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Spring Lake DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Spring Lake Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 1583,
+  "height": 2969,
+  "nodata": -999999,
+  "minMeters": -1.62,
+  "maxMeters": 13.42,
+  "meanMeters": 4.438,
+  "stdDevMeters": 2.19,
+  "minFeet": -5.314960629900001,
+  "maxFeet": 44.0288713909,
+  "webMercatorBounds": [
+    -8241843.527417,
+    4886030.103748,
+    -8239431.035417001,
+    4890554.859748
+  ],
+  "leafletBounds": [
+    [
+      40.1381024,
+      -74.0377401
+    ],
+    [
+      40.1691612,
+      -74.016069
+    ]
+  ],
+  "files": {
+    "demCog": "spring_lake_dem_5ft_cog.tif",
+    "hillshadeCog": "spring_lake_hillshade_cog.tif",
+    "hillshadePng": "spring_lake_hillshade.png",
+    "boundaryGeojson": "spring_lake_boundary.geojson"
+  }
+}
