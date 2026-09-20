@@ -1,0 +1,16 @@
+{
+  "schema": "nj-road-risk-gauge-pipeline-v2",
+  "releaseVersion": "20260920-nj-universal-v2",
+  "floodmapperRepo": "Spring-Lake-Borough-floodmapper",
+  "sourcePrecedence": [
+    "primary-usgs-continuous",
+    "bias-corrected-noaa-historical-fill",
+    "official-usgs-storm-tide-crest-override"
+  ],
+  "primaryUsgsGaugeId": "01407770",
+  "noaaStationId": "8534720",
+  "noaaRegion": "atlantic-city",
+  "noaaBiasCorrectionFt": 0.107,
+  "crestUsgsStationId": "01408050",
+  "calibrationPairKey": "01407770:atlantic-city"
+}
